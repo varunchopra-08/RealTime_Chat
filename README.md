@@ -72,6 +72,7 @@ Here are the socket events used in this app:
 | `user left`     | Server → Clients | `{ username, numUsers }` | Notify others user has left       |
 | `current users` | Server → Client  | `Array<String>`          | List of current connected users   |
 | `login`         | Server → Client  | `{ numUsers }`           | Confirm login                     |
+```
 
 📷 Screenshots
 | Mobile (Dark mode)                          | Web                                   |
