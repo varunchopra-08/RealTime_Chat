@@ -18,12 +18,12 @@ Runs seamlessly on **Android**, **iOS**, and **Web**.
 
 ## 📂 Project Structure
 
-- `lib/
+- lib/
 ├── screens/          # LoginScreen & ChatScreen
 ├── services/         # SocketService (handles socket.io logic)
 ├── widgets/          # Custom UI components
 ├── main.dart         # Entry point
-` — Flutter client app
+ — Flutter client app
 - `chat/index.js` — Node.js + Express + Socket.IO server
 
 ---
