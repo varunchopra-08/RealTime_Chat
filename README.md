@@ -53,6 +53,8 @@ Any modern browser
 Prerequisites
 Node.js & npm installed: nodejs.org
 
+🔗 Socket Events
+Here are the socket events used in this app:
 | **Event**       | **Direction**    | **Payload**              | **Description**                   |
 | --------------- | ---------------- | ------------------------ | --------------------------------- |
 | `add user`      | Client → Server  | `username`               | Add/join a user to the chat       |
@@ -64,3 +66,7 @@ Node.js & npm installed: nodejs.org
 | `current users` | Server → Client  | `Array<String>`          | List of current connected users   |
 | `login`         | Server → Client  | `{ numUsers }`           | Confirm login                     |
 
+📷 Screenshots
+| Mobile (Dark mode)                          | Web                                   |
+| ------------------------------------------- | ------------------------------------- |
+| ![mobile screenshot](screenshot-mobile.png) | ![web screenshot](screenshot-web.png) |
