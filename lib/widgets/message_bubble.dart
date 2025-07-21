@@ -45,7 +45,7 @@ class MessageBubble extends StatelessWidget {
                   fontSize: 16),
             ),
             const SizedBox(height: 4),
-            // Reaction Row (optional)
+            
             Row(
               mainAxisSize: MainAxisSize.min,
               children: const [
